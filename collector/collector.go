@@ -16,8 +16,8 @@ import (
 	nhttpclient "github.com/toolkits/http/httpclient"
 	ntime "github.com/toolkits/time"
 
-	"github.com/open-falcon/task/g"
-	"github.com/open-falcon/task/proc"
+	"github.com/timercrack/task/g"
+	"github.com/timercrack/task/proc"
 )
 
 var (
@@ -67,8 +67,8 @@ func _collect() {
 		jsonList := make([]*cmodel.JsonMetaData, 0)
 
 		// get statistics by http-get
-		hostInfo := strings.Split(host, ",") // "module,hostname:port"
-		if len(hostInfo) != 2 {
+		hostInfo := strings.Split(host, ",") // "module,hostname:port,endpoint"
+		if len(hostInfo) != 3 {
 			continue
 		}
 		hostModule := hostInfo[0]
@@ -78,7 +78,7 @@ func _collect() {
 		if len(hostNamePortList) != 2 {
 			continue
 		}
-		hostName := hostNamePortList[0]
+		hostName := hostInfo[2]
 		hostPort := hostNamePortList[1]
 
 		myTags := tags + ",module=" + hostModule + ",port=" + hostPort

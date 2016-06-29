@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/open-falcon/task/g"
+	"github.com/timercrack/task/g"
 )
 
 type Dto struct {

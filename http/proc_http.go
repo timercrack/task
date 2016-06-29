@@ -3,7 +3,7 @@ package http
 import (
 	"net/http"
 
-	"github.com/open-falcon/task/proc"
+	"github.com/timercrack/task/proc"
 )
 
 func configProcHttpRoutes() {

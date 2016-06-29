@@ -7,7 +7,7 @@ import (
 
 	"github.com/toolkits/file"
 
-	"github.com/open-falcon/task/g"
+	"github.com/timercrack/task/g"
 )
 
 func configCommonRoutes() {

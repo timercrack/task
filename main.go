@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/open-falcon/task/collector"
-	"github.com/open-falcon/task/g"
-	"github.com/open-falcon/task/http"
-	"github.com/open-falcon/task/index"
-	"github.com/open-falcon/task/proc"
+	"github.com/timercrack/task/collector"
+	"github.com/timercrack/task/g"
+	"github.com/timercrack/task/http"
+	"github.com/timercrack/task/index"
+	"github.com/timercrack/task/proc"
 )
 
 func main() {

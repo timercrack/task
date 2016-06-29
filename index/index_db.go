@@ -5,7 +5,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"log"
 
-	"github.com/open-falcon/task/g"
+	"github.com/timercrack/task/g"
 )
 
 var DB *sql.DB

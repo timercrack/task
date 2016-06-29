@@ -12,8 +12,8 @@ import (
 	nhttpclient "github.com/toolkits/http/httpclient"
 	ntime "github.com/toolkits/time"
 
-	"github.com/open-falcon/task/g"
-	"github.com/open-falcon/task/proc"
+	"github.com/timercrack/task/g"
+	"github.com/timercrack/task/proc"
 )
 
 const (

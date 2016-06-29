@@ -19,9 +19,9 @@
         "destUrl" : "http://127.0.0.1:1988/v1/push",
         "srcUrlFmt" : "http://%s/statistics/all",
         "cluster" : [
-            "transfer,test.hostname:6060",
-            "graph,test.hostname:6071",
-            "task,test.hostname:8001"
+            "transfer,test.hostname:6060,transfer.hostname",
+            "graph,test.hostname:6071,graph.hostname",
+            "task,test.hostname:8001,task.hostname"
         ]
     }
 }

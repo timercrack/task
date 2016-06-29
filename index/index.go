@@ -3,7 +3,7 @@ package index
 import (
 	"log"
 
-	"github.com/open-falcon/task/g"
+	"github.com/timercrack/task/g"
 )
 
 // 初始化索引功能模块

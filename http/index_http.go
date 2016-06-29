@@ -3,7 +3,7 @@ package http
 import (
 	"net/http"
 
-	"github.com/open-falcon/task/index"
+	"github.com/timercrack/task/index"
 )
 
 func configIndexHttpRoutes() {
